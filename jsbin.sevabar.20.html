@@ -70,14 +70,14 @@ body {
 
 
 #block1 {
-  background-image: linear-gradient(317deg, rgba(255, 204, 17, 0) 0%, #fc1 62.3%, #fc1 100%), url('./images/services.png'); /* шлях до вашого зображення */
+  background-image: url('./images/img-service.png'); /* шлях до вашого зображення */
   background-repeat: no-repeat; /* Не повторювати зображення */
   background-position: right bottom; /* Розмістити в правому нижньому куті */
   background-size: contain; /* Зображення вміщається повністю, зберігаючи пропорції */
 }
 
 #block2 {
-  background-image: url('./images/service-contract.png');   
+  background-image: url('./images/img-service-contract.png');   
   background-repeat: no-repeat; /* Не повторювати зображення */
   background-position: left bottom; /* Розмістити в правому нижньому куті */
   background-size: contain; /* Зображення вміщається повністю, зберігаючи пропорції */
@@ -129,6 +129,8 @@ p {
   max-height: 0; /* Приховуємо, щоб не займав місце */
   overflow: hidden; /* Обрізаємо контент, якщо він виходить за межі */
   transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out; /* Плавний перехід */
+  font-size: 2em;
+  font-weight: 400;
 }
 
 .menu-block:hover {
@@ -157,7 +159,7 @@ p {
 @media screen and (min-width: 768px) {
   .menu-block .hidden-on-default {
   font-size: 4em;
-  font-weight: 200;
+  font-weight: 400;
 }
 }
 </style>
